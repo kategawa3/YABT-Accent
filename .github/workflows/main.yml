@@ -3,8 +3,7 @@ name: CI
 on: [push, workflow_dispatch]
 
 jobs:
-  build:
-
+  loop_job:
     runs-on: windows-latest
 
     steps:
